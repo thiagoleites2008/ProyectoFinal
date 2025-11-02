@@ -4,6 +4,7 @@ body{
     margin: 0;
     align-items: center;
     justify-content: center;
+    color: #e0e0e0;
 }
 
 @font-face {
@@ -12,21 +13,12 @@ body{
          url('/fuentes/Green_Energy/green_energy-webfont.woff') format('woff');
 }
 
-.MonsterTitulo {
-    color: #95d600;
+a{
+    text-decoration: none;
 }
 
-p{
-    font-family: "Bryndan Write", cursive, sans-serif;
+.listaNav a{
     color: #e0e0e0;
-    line-height: 1.6;
-}
-
-h1{
-    font-family: "Monster", sans-serif, arial;
-    color: #e0e0e0;
-    font-size: 60px;
-    margin: 0;
 }
 
 button{
@@ -37,6 +29,13 @@ button{
     padding: 15px 40px 15px 40px;
 }
 
+button a{
+    font-family: "Monster", sans-serif, arial;
+    font-size: 50px;
+    color: #95d600;
+    text-decoration: none;
+}
+
 button:hover {
     background-color: #95d600;
 }
@@ -44,34 +43,3 @@ button:hover {
 button:hover a {
     color: #0b0b0b;
 }
-
-a{
-    font-family: "Monster", sans-serif, arial;
-    font-size: 30px;
-    color: #95d600;
-    text-decoration: none;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    padding: 60px;
-    flex-wrap: wrap;
-}
-
-.texto {
-    flex: 1;
-}
-
-.imagen {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    height: auto;
-    width: 500px;
-}
-
