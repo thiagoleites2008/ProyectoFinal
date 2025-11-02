@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to right, #0b0b0b 60%, #111f11);
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Monster;
+    src: url(/fuentes/Green_Energy/Green_Energy.ttf);
+}
+
+.MonsterTitulo {
+    color: #95d600;
+}
+
+p{
+    font-family: "Bryndan Write", cursive, sans-serif;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+h1{
+    font-family: "Monster", sans-serif, arial;
+    color: #e0e0e0;
+    font-size: 60px;
+    margin: 0;
+}
+
+button{
+    background-color: #0b0b0b;
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: #95d600;
+    padding: 15px 40px 15px 40px;
+}
+
+button:hover {
+    background-color: #95d600;
+}
+
+button:hover a {
+    color: #0b0b0b;
+}
+
+a{
+    font-family: "Monster", sans-serif, arial;
+    font-size: 30px;
+    color: #95d600;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
