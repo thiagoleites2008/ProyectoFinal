@@ -1,10 +1,10 @@
 body{
     background: linear-gradient(to right, #0b0b0b 60%, #111f11);
-    padding: 0;
-    margin: 0;
     align-items: center;
     justify-content: center;
     color: #e0e0e0;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
@@ -15,10 +15,6 @@ body{
 
 a{
     text-decoration: none;
-}
-
-.listaNav a{
-    color: #e0e0e0;
 }
 
 button{
@@ -43,3 +39,47 @@ button:hover {
 button:hover a {
     color: #0b0b0b;
 }
+
+.nav {
+    background-color: #0b0b0b;
+    border-bottom: 3px solid #95d600;
+    padding: 15px 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav img {
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    font-family: "monster", sans-serif, arial;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: #95d600;
+    transition: 0.3s;
+}
+
+.seccion1 h1{
+    font-family: "Monster", sans-serif, arial;
+    color: #e0e0e0;
+    font-size: 60px;
+    
+  }
