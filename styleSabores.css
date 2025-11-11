@@ -54,6 +54,12 @@ a{
     transition: 0.3s;
 }
 
+.seccion1 p {
+    text-align: center;
+    font-size: 25px;
+    color: #95d600;
+}
+
 .seccion1 h1{
     font-family: "Monster", sans-serif, arial;
     color: #e0e0e0;
@@ -79,7 +85,15 @@ a{
     border-radius: 30px;
     padding: 0px 30px 30px 30px;
     margin-left: 160px;
-    margin-right: 250px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: #0b0b0b;
+}
+
+.bloque1 cite{
+    font-size: 23px;
+    color: #95d600;
+    font-style: italic;
 }
 
 .bloque1 h2 {
@@ -101,55 +115,80 @@ a{
 
 .img1 {
     display: flex;
-    justify-content: flex-end;
 }
 
 .img1 img {
-    max-width: 100%;
     height: 550px;
     display: block;
+    margin-bottom: -420px;
+    margin-left: 100px;
 }
 
 .bloque2 {
-    border: 4px solid #95d600;
+    border: 4px solid #71896e;
     border-radius: 30px;
     padding: 0px 30px 30px 30px;
-    margin-left: 200px;
+    margin-left: 50px;
     margin-right: 160px;
-    margin-top: 350px;
+    margin-top: 200px;
+    background-color: #c5c5c5;
+}
+
+.bloque2 cite{
+    font-size: 23px;
+    color: #0b0b0b;
+    font-style: italic;
 }
 
 .bloque2 h2 {
     font-family: "Monster", sans-serif, Arial;
-    color: #95d600;
+    color: #0b0b0b;;
     font-size: 60px;
     margin-bottom: 25px;
 }
 
 .bloque2 p {
     font-size: 23px;
-    color: #ffffff;
+    color: #0b0b0b;
 }
 
-.bloque2 span {
-    color: #95d600;
-    font-weight: bold;
+.img2 img {
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 350px;
 }
 
-.lista2 li {
+.bloque3 {
+    border: 4px solid #ff751f;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: #2084a8;
+}
+
+.bloque3 cite{
+    font-size: 23px;
+    color: #ff8f49;
+    font-style: italic;
+}
+
+.bloque3 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #ff8f49;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque3 p {
     font-size: 23px;
     color: #ffffff;
 }
 
-.lista2 li span {
-    color: #95d600;
+.bloque3 span {
+    color: #ff8f49;
     font-weight: bold;
-}
-
-.img2 img {
-    height: 550px;
-    margin-top: 350px;
-    margin-left: 150px;
 }
 
 button{

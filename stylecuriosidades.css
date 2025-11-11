@@ -94,11 +94,6 @@ a{
     color: #ffffff;
 }
 
-.bloque1 span {
-    color: #95d600;
-    font-weight: bold;
-}
-
 .img1 {
     display: flex;
     justify-content: flex-end;
@@ -129,21 +124,6 @@ a{
 .bloque2 p {
     font-size: 23px;
     color: #ffffff;
-}
-
-.bloque2 span {
-    color: #95d600;
-    font-weight: bold;
-}
-
-.lista2 li {
-    font-size: 23px;
-    color: #ffffff;
-}
-
-.lista2 li span {
-    color: #95d600;
-    font-weight: bold;
 }
 
 .img2 img {
