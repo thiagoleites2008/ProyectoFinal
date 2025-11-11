@@ -191,6 +191,404 @@ a{
     font-weight: bold;
 }
 
+.img3 {
+    display: flex;
+}
+
+.img3 img {
+    height: 550px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 260px;
+}
+
+.bloque4 {
+    border: 4px solid #71896e;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 50px;
+    margin-right: 160px;
+    margin-top: 200px;
+    background-color: #c5c5c5;
+}
+
+.bloque4 cite{
+    font-size: 23px;
+    color: #0b0b0b;
+    font-style: italic;
+}
+
+.bloque4 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #0b0b0b;;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque4 p {
+    font-size: 23px;
+    color: #0b0b0b;
+}
+
+.img4 img {
+    height: 650px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+button{
+    background-color: #0b0b0b;
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: #95d600;
+    padding: 30px 40px 30px 40px;
+}
+
+button a{
+    font-family: "Monster", sans-serif, arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button span{
+    color: #95d600;
+}
+
+button:hover {
+    background-color: #95d600;
+}
+
+button:hover a {
+    color: #0b0b0b;
+}
+
+button:hover span {
+    color: #0b0b0b;
+}
+
+.final {
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.final h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.final img {
+    width: 300px;
+    display: block;
+    font-display: center;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.footer {
+    background-color: #0b0b0b;
+    border-top: 3px solid #95d600;
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .nosotros {
+    color: #95d600;
+    text-decoration: none;
+}body{
+    background: linear-gradient(to right, #0b0b0b 60%, #111f11);
+    align-items: center;
+    justify-content: center;
+    color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Monster';
+    src: url('fuentes/Green_Energy/green_energy-webfont.woff2') format('woff2'),
+         url('/fuentes/Green_Energy/green_energy-webfont.woff') format('woff');
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #0b0b0b;
+    border-bottom: 3px solid #95d600;
+    padding: 15px 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav img {
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    font-family: "monster", sans-serif, arial;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: #95d600;
+    transition: 0.3s;
+}
+
+.seccion1 p {
+    text-align: center;
+    font-size: 25px;
+    color: #95d600;
+}
+
+.seccion1 h1{
+    font-family: "Monster", sans-serif, arial;
+    color: #e0e0e0;
+    font-size: 100px;
+    text-align: center;
+    padding: 350px 0px 350px 0px;
+  }
+.seccion1 h1 span{
+    font-size: 50px;
+    color: #95d600;
+  }
+
+.seccion2 {
+    padding: 60px 0 60px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: center;
+}
+
+.bloque1 {
+    border: 4px solid #95d600;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: #0b0b0b;
+}
+
+.bloque1 cite{
+    font-size: 23px;
+    color: #95d600;
+    font-style: italic;
+}
+
+.bloque1 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #95d600;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque1 p {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.bloque1 span {
+    color: #95d600;
+    font-weight: bold;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img1 img {
+    height: 550px;
+    display: block;
+    margin-bottom: -420px;
+    margin-left: 100px;
+}
+
+.bloque2 {
+    border: 4px solid #71896e;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 50px;
+    margin-right: 160px;
+    margin-top: 200px;
+    background-color: #c5c5c5;
+}
+
+.bloque2 cite{
+    font-size: 23px;
+    color: #0b0b0b;
+    font-style: italic;
+}
+
+.bloque2 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #0b0b0b;;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque2 p {
+    font-size: 23px;
+    color: #0b0b0b;
+}
+
+.img2 img {
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+.bloque3 {
+    border: 4px solid #ff751f;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: #2084a8;
+}
+
+.bloque3 cite{
+    font-size: 23px;
+    color: #ff8f49;
+    font-style: italic;
+}
+
+.bloque3 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #ff8f49;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque3 p {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.bloque3 span {
+    color: #ff8f49;
+    font-weight: bold;
+}
+
+.img3 {
+    display: flex;
+}
+
+.img3 img {
+    height: 550px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 260px;
+}
+
+.bloque4 {
+    border: 4px solid #cd3261;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 50px;
+    margin-right: 160px;
+    margin-top: 200px;
+    background-color: #e1a7bc;
+}
+
+.bloque4 cite{
+    font-size: 23px;
+    color: #0b0b0b;
+    font-style: italic;
+}
+
+.bloque4 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #0b0b0b;;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque4 p {
+    font-size: 23px;
+    color: #0b0b0b;
+}
+
+.img4 img {
+    height: 550px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+.bloque5 {
+    border: 4px solid #e1d22f;
+    border-radius: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: #e0413d;
+}
+
+.bloque5 cite{
+    font-size: 23px;
+    color: #ff8f49;
+    font-style: italic;
+}
+
+.bloque5 h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #ff8f49;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.bloque5 p {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.bloque5 span {
+    color: #ff8f49;
+    font-weight: bold;
+}
+
+.img5 img {
+    height: 550px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
 button{
     background-color: #0b0b0b;
     border-radius: 50px;
