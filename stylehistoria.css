@@ -1,7 +1,5 @@
-body{
+body {
     background: linear-gradient(to right, #0b0b0b 60%, #111f11);
-    align-items: center;
-    justify-content: center;
     color: #e0e0e0;
     padding: 0;
     margin: 0;
@@ -13,14 +11,14 @@ body{
          url('/fuentes/Green_Energy/green_energy-webfont.woff') format('woff');
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 .nav {
     background-color: #0b0b0b;
     border-bottom: 3px solid #95d600;
-    padding: 15px 20px 15px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,13 +36,11 @@ a{
     list-style: none;
     display: flex;
     gap: 3rem;
-    flex-wrap: wrap;
 }
 
 .nav a {
     font-family: "monster", sans-serif, arial;
     color: #ffffff;
-    text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
@@ -54,32 +50,33 @@ a{
     transition: 0.3s;
 }
 
-.seccion1 h1{
+.seccion1 h1 {
     font-family: "Monster", sans-serif, arial;
     color: #e0e0e0;
     font-size: 100px;
     text-align: center;
-    padding: 350px 0px 350px 0px;
-  }
-.seccion1 h1 span{
+    padding: 350px 0;
+}
+
+.seccion1 h1 span {
     font-size: 50px;
     color: #95d600;
-  }
+}
 
 .seccion2 {
     padding: 60px 0 60px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
     align-items: center;
 }
 
 .bloque1 {
     border: 4px solid #95d600;
     border-radius: 30px;
-    padding: 0px 30px 30px 30px;
+    padding: 0 30px 30px 30px;
     margin-left: 160px;
     margin-right: 250px;
+    background-color: #0b0b0b;
 }
 
 .bloque1 h2 {
@@ -96,7 +93,10 @@ a{
 
 .bloque1 span {
     color: #95d600;
-    font-weight: bold;
+}
+
+.lista1{
+    font-size: 23px;
 }
 
 .img1 {
@@ -107,16 +107,16 @@ a{
 .img1 img {
     max-width: 100%;
     height: 550px;
-    display: block;
 }
 
 .bloque2 {
     border: 4px solid #95d600;
     border-radius: 30px;
-    padding: 0px 30px 30px 30px;
+    padding: 0 30px 30px 30px;
     margin-left: 200px;
     margin-right: 160px;
     margin-top: 350px;
+    background-color: #0b0b0b;
 }
 
 .bloque2 h2 {
@@ -133,17 +133,14 @@ a{
 
 .bloque2 span {
     color: #95d600;
-    font-weight: bold;
 }
 
 .lista2 li {
     font-size: 23px;
-    color: #ffffff;
 }
 
 .lista2 li span {
     color: #95d600;
-    font-weight: bold;
 }
 
 .img2 img {
@@ -152,22 +149,20 @@ a{
     margin-left: 150px;
 }
 
-button{
+button {
     background-color: #0b0b0b;
     border-radius: 50px;
-    border: 5px solid;
-    border-color: #95d600;
-    padding: 30px 40px 30px 40px;
+    border: 5px solid #95d600;
+    padding: 30px 40px;
 }
 
-button a{
+button a {
     font-family: "Monster", sans-serif, arial;
     font-size: 50px;
     color: #ffffff;
-    text-decoration: none;
 }
 
-button span{
+button span {
     color: #95d600;
 }
 
@@ -187,11 +182,11 @@ button:hover span {
     text-align: center;
     padding: 100px 20px;
     margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    display: flex;
-    margin-bottom: 80px;
 }
 
 .final h2 {
@@ -203,10 +198,7 @@ button:hover span {
 
 .final img {
     width: 300px;
-    display: block;
-    font-display: center;
     margin-bottom: -30px;
-    position: relative;
 }
 
 .footer {
@@ -228,5 +220,4 @@ button:hover span {
 
 .footer .nosotros {
     color: #95d600;
-    text-decoration: none;
 }

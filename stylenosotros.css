@@ -1,0 +1,181 @@
+body{
+    background: linear-gradient(to right, #0b0b0b 60%, #111f11);
+    color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Monster';
+    src: url('fuentes/Green_Energy/green_energy-webfont.woff2') format('woff2'),
+         url('/fuentes/Green_Energy/green_energy-webfont.woff') format('woff');
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #0b0b0b;
+    border-bottom: 3px solid #95d600;
+    padding: 15px 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav img {
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    font-family: "monster", sans-serif, arial;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: #95d600;
+    transition: 0.3s;
+}
+
+.seccion1 h1{
+    font-family: "Monster", sans-serif, arial;
+    color: #e0e0e0;
+    font-size: 100px;
+    text-align: center;
+    padding: 350px 0px 350px 0px;
+  }
+.seccion1 h1 span{
+    font-size: 50px;
+    color: #95d600;
+  }
+
+.seccion2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 20px;
+    flex-wrap: wrap;
+}
+
+.seccion2 .somos{
+    font-size: 23px;
+    text-align: center;
+    width: 1500px;
+}
+
+.bloque {
+    background-color: #0b0b0b;
+    border: 3px solid #95d600;
+    border-radius: 15px;
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.bloque h2{
+    color: #95d600;
+}
+
+.bloque:hover {
+    box-shadow: 0 15px 20px #95d600;
+}
+
+a{
+    text-decoration: none;
+    color: #95d600;
+}
+
+button{
+    background-color: #0b0b0b;
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: #95d600;
+    padding: 30px 40px 30px 40px;
+}
+
+button a{
+    font-family: "Monster", sans-serif, arial;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button span{
+    color: #95d600;
+}
+
+button:hover {
+    background-color: #95d600;
+}
+
+button:hover a {
+    color: #0b0b0b;
+}
+
+button:hover span {
+    color: #0b0b0b;
+}
+
+.final {
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.final h2 {
+    font-family: "Monster", sans-serif, Arial;
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.final img {
+    width: 300px;
+    display: block;
+    font-display: center;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.footer {
+    background-color: #0b0b0b;
+    border-top: 3px solid #95d600;
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .nosotros {
+    color: #95d600;
+    text-decoration: none;
+}
